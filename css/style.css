@@ -12,7 +12,7 @@
     --color_text-secundary: #101e2c;
     --color_text-tertiary: #002558;
     --main_color-primary: #002558;
-    --main_color-secundary:#F39C12;
+    --main_color-secundary:#f3a424;
     --background-color: #fafbfe;
     --lowText_font_size: 16px;
     --text_size_title: 40px;
@@ -93,6 +93,7 @@ header{
 }
 
 /*portada inicio*/
+
 .container_cover{
     padding-top: 100px;
     padding-bottom: 100px;
@@ -143,4 +144,86 @@ header{
 }
 .image_cover img{
     width: 650px;
+}
+
+/*Estios generales cards*/
+
+.container__card-primary{
+    padding-top: 100px;
+}
+.card__primary{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 0px 20px;
+}
+.text__card-primary{
+    max-width: 800px;
+    margin: auto;
+}
+.text__card-primary p{
+    color: var(--color_text-primary);
+    letter-spacing: 4px;
+    font-size: var(--text_paragraph);
+    font-weight: 500;
+}
+.text__card-primary h1{
+    font-size: var(--text_size_title);
+    font-weight: 600;
+    color: var(--color_text-secundary);
+}
+.container__box-cardPrimary{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+}
+.box__card-primary{
+    max-width: 350px;
+    padding: 60px 40px;
+    border: 1px solid #e6e6e6;
+    border-radius: 20px;
+    margin: 14px;
+    transition: all 300ms;
+}
+.box__card-primary:hover{
+    border: 1px solid transparent;
+    box-shadow: var(--box_shadow-primary);
+}
+.box__card-primary h2{
+    font-size: var(--text_title_card);
+    margin-top: 40px;
+    font-weight: 500;
+}
+
+.box__card-primary p{
+    margin-top: 20px;
+}
+
+/*seccion*/
+
+.container_seccion{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: rgba(194, 194, 194, 0.63);
+    
+}
+.seccion{
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+}
+.text_seccion{
+    width: 100%;
+    padding-right: 150px;
+}
+.text_seccion h3{
+    font-size: 30px;
+    color: var(--color_text-secundary);
+}
+.image_seccion2{
+    float: right;
 }
