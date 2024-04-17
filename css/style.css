@@ -199,14 +199,137 @@ header{
 .box__card-primary p{
     margin-top: 20px;
 }
+.box__card-primary img{
+    width: 50px;
+    height: 50px;
+}
 
-/*seccion*/
+/*card prymari two*/
+
+.container__card-primary{
+    padding-top: 30px;
+}
+.card__primary{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 0px 20px;
+}
+.text__card-primary{
+    max-width: 800px;
+    margin: auto;
+}
+.text__card-primary p{
+    color: var(--color_text-primary);
+    letter-spacing: 4px;
+    font-size: var(--text_paragraph);
+    font-weight: 500;
+}
+.text__card-primary h1{
+    font-size: var(--text_size_title);
+    font-weight: 600;
+    color: var(--color_text-secundary);
+}
+.container__box-cardPrimary{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+}
+.box__card-primary{
+    max-width: 350px;
+    padding: 60px 40px;
+    border: 1px solid #e6e6e6;
+    border-radius: 20px;
+    margin: 14px;
+    transition: all 300ms;
+}
+.box__card-primary:hover{
+    border: 1px solid transparent;
+    box-shadow: var(--box_shadow-primary);
+}
+.box__card-primary h2{
+    font-size: var(--text_title_card);
+    margin-top: 40px;
+    font-weight: 500;
+}
+
+.box__card-primary p{
+    margin-top: 20px;
+}
+.box__card-primary img{
+    width: 50px;
+    height: 50px;
+}
+
+/*end card Prymari two*/
+
+.container__card-primarytheer{
+    padding-top: 30px;
+    background-color: #f0f0f0;
+}
+.card__primarytheer{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 0px 20px;
+}
+.text__card-primarytheer{
+    max-width: 800px;
+    margin: auto;
+}
+.text__card-primarytheer p{
+    color: var(--color_text-primary);
+    letter-spacing: 4px;
+    font-size: var(--text_paragraph);
+    font-weight: 500;
+}
+.text__card-primarytheer h1{
+    font-size: var(--text_size_title);
+    font-weight: 600;
+    color: var(--color_text-secundary);
+}
+.container__box-cardPrimarytheer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+
+}
+.box__card-primarytheer1{
+    background-image: url(/img/cover/moto1.jpg);
+    background-size: cover;
+    width: 500px;
+    height: 300px;
+    
+}
+.box__card-primarytheer:hover{
+    border: 1px solid transparent;
+    box-shadow: var(--box_shadow-primary);
+}
+.box__card-primarytheer h2{
+    font-size: var(--text_title_card);
+    margin-top: 40px;
+    font-weight: 500;
+}
+
+.box__card-primarytheer p{
+    margin-top: 20px;
+}
+.box__card-primarytheer img{
+    width: 400px;
+    height: 400px;
+}
+
+
+
+
+/*seccion
 
 .container_seccion{
     padding-top: 100px;
     padding-bottom: 100px;
     background-color: rgba(194, 194, 194, 0.63);
-    
 }
 .seccion{
     max-width: 1200px;
@@ -227,3 +350,4 @@ header{
 .image_seccion2{
     float: right;
 }
+/*end seccion*/
