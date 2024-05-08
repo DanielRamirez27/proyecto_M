@@ -264,7 +264,7 @@ header{
 
 .container__about{
     padding: 100px 0px;
-    background: var(--background-color);
+    background:#f8eed1;
     margin-top: 100px;
 }
 
@@ -340,7 +340,7 @@ header{
     padding: 20px;
     box-sizing: border-box;
     border-radius: 10px;
-    color: #ffffff;
+    color: #e3f4f5;
     text-align: left;
     background-size: cover;
     background-position: center;
@@ -356,4 +356,37 @@ header{
 }
 
 /*End Proyectos*/
+
+.container__equipo{
+    padding: 100px 0px;
+    background: var(--background-color);
+    margin-top: 100px;
+}
+
+.container__card-equipo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card__equipo {
+    width: 500px;
+    height: 500px;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    color: #e3f4f5;
+    text-align: left;
+    background-size: cover;
+    background-position: center;
+}
+
+.card__equipo h2, .card__equipo p {
+    margin: 0;
+}
+
+.card__equipo:hover {
+    transform: scale(1.05); 
+    transition: transform 0.3s ease; 
+}
 
