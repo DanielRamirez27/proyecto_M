@@ -204,66 +204,6 @@ header{
     height: 50px;
 }
 
-/*card prymari two*/
-
-.container__card-primary{
-    padding-top: 30px;
-}
-.card__primary{
-    max-width: 1200px;
-    margin: auto;
-    text-align: center;
-    padding: 0px 20px;
-}
-.text__card-primary{
-    max-width: 800px;
-    margin: auto;
-}
-.text__card-primary p{
-    color: var(--color_text-primary);
-    letter-spacing: 4px;
-    font-size: var(--text_paragraph);
-    font-weight: 500;
-}
-.text__card-primary h1{
-    font-size: var(--text_size_title);
-    font-weight: 600;
-    color: var(--color_text-secundary);
-}
-.container__box-cardPrimary{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 40px;
-}
-.box__card-primary{
-    max-width: 350px;
-    padding: 60px 40px;
-    border: 1px solid #e6e6e6;
-    border-radius: 20px;
-    margin: 14px;
-    transition: all 300ms;
-}
-.box__card-primary:hover{
-    border: 1px solid transparent;
-    box-shadow: var(--box_shadow-primary);
-}
-.box__card-primary h2{
-    font-size: var(--text_title_card);
-    margin-top: 40px;
-    font-weight: 500;
-}
-
-.box__card-primary p{
-    margin-top: 20px;
-}
-.box__card-primary img{
-    width: 50px;
-    height: 50px;
-}
-
-/*end card Prymari two*/
-
 .container__card-primarytheer{
     padding-top: 30px;
     background-color: #f0f0f0;
@@ -320,34 +260,100 @@ header{
     width: 400px;
     height: 400px;
 }
+/*Sobre Nosotros*/
 
-
-
-
-/*seccion
-
-.container_seccion{
-    padding-top: 100px;
-    padding-bottom: 100px;
-    background-color: rgba(194, 194, 194, 0.63);
+.container__about{
+    padding: 100px 0px;
+    background: var(--background-color);
+    margin-top: 100px;
 }
-.seccion{
+
+.about{
     max-width: 1200px;
     margin: auto;
-    margin-top: 100px;
+    padding: 0px 20px;
     display: flex;
     align-items: center;
-    padding: 0px 20px;
+    justify-content: center;
 }
-.text_seccion{
+
+.text__about{
     width: 100%;
-    padding-right: 150px;
+    padding-right: 40px;
 }
-.text_seccion h3{
-    font-size: 30px;
+
+.text__about h1{
     color: var(--color_text-secundary);
+    font-weight: 600;
 }
-.image_seccion2{
-    float: right;
+
+.text__about p{
+    font-size: var(--text_paragraph);
+    margin-top: 40px;
+    color: var(--color_text-tertiary);
 }
-/*end seccion*/
+
+
+.image__about{
+    width: 100%;
+    display: flex;
+}
+
+.image__about img{
+    width: 300px;
+}
+
+/*End Sobre Nosotros*/
+
+/*Servicios*/
+
+.card__service img{
+    width: 50px;
+}
+
+.card__service i{
+    font-size: 24px;
+    margin-top: 20px;
+    cursor: pointer;
+    color: var(--color_text-primary);
+}
+
+/*End Servicios*/
+
+/*Proyectos*/
+
+.container__proyect{
+    padding: 100px 0px;
+    background: var(--background-color);
+    margin-top: 100px;
+}
+
+.container__card-proyect {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card__proyect {
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    color: #ffffff;
+    text-align: left;
+    background-size: cover;
+    background-position: center;
+}
+
+.card__proyect h2, .card__proyect p {
+    margin: 0;
+}
+
+.card__proyect:hover {
+    transform: scale(1.05); 
+    transition: transform 0.3s ease; 
+}
+
+/*End Proyectos*/
+
