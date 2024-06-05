@@ -95,7 +95,7 @@ header{
 /*portada inicio*/
 
 .container_cover{
-    padding-top: 100px;
+    padding-top: 20px;
     padding-bottom: 100px;
     background: var(--main_color-secundary);
 }
@@ -339,10 +339,13 @@ header{
     padding: 20px;
     box-sizing: border-box;
     border-radius: 10px;
-    color: #e3f4f5;
+    color: #ffffff;
     text-align: left;
     background-size: cover;
     background-position: center;
+}
+.card__proyect h2{
+    color: #fc9f9f;
 }
 
 .card__proyect h2, .card__proyect p {
@@ -497,7 +500,7 @@ input::placeholder, textarea::placeholder{
 /*mapa*/
 .mapa{
     margin-top: 50px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 /*End mapa*/
 
@@ -520,7 +523,6 @@ section{
     bottom: 0;
    
 }
-
 .footer-content h4{
     color: #fff;
     margin-bottom: 1.5rem;
@@ -529,17 +531,37 @@ section{
 
 .footer-content li{
     margin-bottom: 16px;
+    list-style: none;
 }
 
 .footer-content li a{
     display: block;
     color: #d6d6d6;
     font-size: 15px;
-    
     transition: all .40s ease;
-    text-decoration: none;
+    
 }
-
+.footer-content li a:hover{
+    transform: translate(-3px) translateX(-5px);
+    color: #dfaa49;
+}
+.footer-content p{
+    color: #d6d6d6;
+    font-size: 16px;
+    line-height: 30px;
+    margin: 20px 0;
+}
+.icons a{
+    display: inline-block;
+    font-size: 22px;
+    color: #d6d6d6;
+    margin-right: 17px;
+    transition: all .40s ease ;
+}
+.icons a:hover{
+    color: #dfaa49;
+    transform: translateY(-5px);
+}
 
 
 
